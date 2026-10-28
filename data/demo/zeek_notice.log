@@ -1,0 +1,3 @@
+{"_path": "notice", "ts": 1792483701.549816, "note": "Scan::Address_Scan", "msg": "192.168.56.101 scanned at least 25 unique hosts on port 22/80 in 0m", "src": "192.168.56.101", "actions": ["Notice::ACTION_LOG"]}
+{"_path": "notice", "ts": 1792484579.943419, "note": "Scan::Port_Scan", "msg": "192.168.56.101 scanned at least 15 unique ports of host 10.10.0.20 in 0m", "src": "192.168.56.101", "dst": "10.10.0.20", "actions": ["Notice::ACTION_LOG"]}
+{"_path": "notice", "ts": 1792488832.549234, "note": "SSH::Password_Guessing", "msg": "192.168.56.101 appears to be guessing SSH passwords (seen in 118 connections).", "src": "192.168.56.101", "dst": "10.10.0.20", "actions": ["Notice::ACTION_LOG"]}

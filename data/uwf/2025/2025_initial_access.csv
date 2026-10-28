@@ -1,0 +1,2 @@
+community_id,conn_state,duration,history,src_ip_zeek,src_port_zeek,dest_ip_zeek,dest_port_zeek,local_orig,local_resp,missed_bytes,orig_bytes,orig_ip_bytes,orig_pkts,proto,resp_bytes,resp_ip_bytes,resp_pkts,service,ts,uid,datetime,label_tactic,label_technique,label_binary,label_cve
+1:3r+Bm0ATqOqpSmllBEvOwsf2svo=,RSTO,790.6898829936981,ShAdDafR,143.88.5.10,46229,143.88.5.12,21,false,false,0,164,744,11,tcp,298,774,9,ftp,1.753275220193265E9,ClsTCx2O6c0jrIveH9,2025-07-23T12:53:40.193Z,Initial Access,T1190,True,none

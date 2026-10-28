@@ -1,0 +1,17 @@
+{
+ "version": "1.3.0",
+ "seed": 20261020,
+ "counts": {
+  "suricata": 173,
+  "zeek_conn": 2718,
+  "zeek_dns": 4419,
+  "zeek_http": 152,
+  "zeek_ssl": 477,
+  "zeek_ssh": 272,
+  "zeek_notice": 3,
+  "zeek_files_tsv": 12,
+  "malformed_eve_lines": 8,
+  "malformed_zeek_lines": 5
+ },
+ "synthetic": true
+}

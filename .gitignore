@@ -1,0 +1,26 @@
+# runtime data and databases
+runtime/
+*.db
+*.db-wal
+*.db-shm
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# node
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+# env / secrets / caches
+.env
+.ollama/
+# real security logs must never be committed
+data/uploads/
+*.pcap
+.DS_Store
+.claude/
+
+# Windows run.bat package folder
+backend/_deps/

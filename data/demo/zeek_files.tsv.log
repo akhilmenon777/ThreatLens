@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#fields	ts	fuid	tx_hosts	rx_hosts	source	mime_type	total_bytes
+#types	time	string	set[addr]	set[addr]	string	string	count
+1792490400.0	Fcae8a623cc417d219	10.10.0.20	10.10.0.51	HTTP	application/pdf	571777
+1792490820.0	Fbd19836ddb62c11c5	10.10.0.20	10.10.0.58	HTTP	application/pdf	524255
+1792491240.0	F3667f6a0c97490758	10.10.0.20	10.10.0.50	HTTP	application/pdf	384725
+1792491660.0	F1779cf3aa50c413af	10.10.0.20	10.10.0.57	HTTP	application/pdf	62297
+1792492080.0	F6e1fcd704528ad8bf	10.10.0.20	10.10.0.59	HTTP	application/pdf	316223
+1792492500.0	F74ce2e1a498f2fa27	10.10.0.20	10.10.0.59	HTTP	application/pdf	558794
+1792492920.0	F64e4cda19b3f3ea4a	10.10.0.20	10.10.0.48	HTTP	application/pdf	500710
+1792493340.0	F6c664eeed34d9c29a	10.10.0.20	10.10.0.58	HTTP	application/pdf	658728
+1792493760.0	F581c3010417303e1e	10.10.0.20	10.10.0.47	HTTP	application/pdf	235047
+1792494180.0	F6506f0388343a1f09	10.10.0.20	10.10.0.58	HTTP	application/pdf	412900
+1792494600.0	F82b5f6802b727b0d9	10.10.0.20	10.10.0.42	HTTP	application/pdf	695220
+1792495020.0	Ff344a40a52a94ab79	10.10.0.20	10.10.0.57	HTTP	application/pdf	70990
+#close	2026-10-21-00-00-00

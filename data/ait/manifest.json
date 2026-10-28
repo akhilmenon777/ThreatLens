@@ -1,0 +1,5262 @@
+{
+ "source": "AIT Alert Data Set (AIT-ADS) v1, Zenodo 10.5281/zenodo.8263181, CC BY 4.0",
+ "method": "per (scenario, file, alert type, attack phase) groups capped at 1500 alerts, evenly spaced in time; smaller groups kept completely",
+ "cap": 1500,
+ "files": {
+  "fox_wazuh.jsonl.gz": {
+   "scenario": "fox",
+   "kind": "wazuh",
+   "original": 462523,
+   "kept": 16281,
+   "attack_full": 410734,
+   "attack_kept": 6287,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     1160,
+     1160
+    ],
+    "wazuh|20101|IDS event.|none": [
+     10436,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     385,
+     385
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     174,
+     174
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     38,
+     38
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     24,
+     24
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     73,
+     73
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     5136,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     5136,
+     1500
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     27087,
+     1500
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     15,
+     15
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     8,
+     8
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     19,
+     19
+    ],
+    "wazuh|5403|First time user executed sudo.|none": [
+     2,
+     2
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|none": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     29,
+     29
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     177,
+     177
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     189,
+     189
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     40,
+     40
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     20,
+     20
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     31,
+     31
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     17,
+     17
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     8,
+     8
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     9,
+     9
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|none": [
+     16,
+     16
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     31,
+     31
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     3,
+     3
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     336,
+     336
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     17,
+     17
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     8,
+     8
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     10,
+     10
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     6,
+     6
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     123,
+     123
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|network_scans": [
+     50,
+     50
+    ],
+    "wazuh|20101|IDS event.|network_scans": [
+     98,
+     98
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|network_scans": [
+     50,
+     50
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     7,
+     7
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     37,
+     37
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     9,
+     9
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     21,
+     21
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     4589,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     353,
+     353
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|wpscan": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|wpscan": [
+     12,
+     12
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     10,
+     10
+    ],
+    "wazuh|31104|Common web attack.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     547,
+     547
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     375428,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     28930,
+     1500
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     181,
+     181
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     452,
+     452
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|dirb": [
+     82,
+     82
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dirb": [
+     216,
+     216
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|dirb": [
+     5,
+     5
+    ],
+    "wazuh|20101|IDS event.|dirb": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dirb": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dirb": [
+     2,
+     2
+    ],
+    "wazuh|52507|ClamAV database update|dirb": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     162,
+     162
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|cracking": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     183,
+     183
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     94,
+     94
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     94,
+     94
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     5,
+     5
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     6,
+     6
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|5503|PAM: User login failed.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|cracking": [
+     3,
+     3
+    ],
+    "wazuh|2501|syslog: User authentication failure.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|5304|User successfully changed UID.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     4,
+     4
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     3,
+     3
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     7,
+     7
+    ]
+   }
+  },
+  "fox_aminer.jsonl.gz": {
+   "scenario": "fox",
+   "kind": "aminer",
+   "original": 10581,
+   "kept": 6414,
+   "attack_full": 9395,
+   "attack_kept": 5228,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     127,
+     127
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     37,
+     37
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     436,
+     436
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     14,
+     14
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     103,
+     103
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     57,
+     57
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     25,
+     25
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     16,
+     16
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     42,
+     42
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     80,
+     80
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     18,
+     18
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     39,
+     39
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|dnsteal": [
+     6,
+     6
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|dnsteal": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     106,
+     106
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|service_scans": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     4736,
+     1500
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     12,
+     12
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     30,
+     30
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     32,
+     32
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     1300,
+     1300
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     715,
+     715
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     2431,
+     1500
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|dirb": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|cracking": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ]
+   }
+  },
+  "harrison_wazuh.jsonl.gz": {
+   "scenario": "harrison",
+   "kind": "wazuh",
+   "original": 583754,
+   "kept": 24579,
+   "attack_full": 415725,
+   "attack_kept": 6482,
+   "groups": {
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     46477,
+     1500
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     58,
+     58
+    ],
+    "wazuh|20101|IDS event.|none": [
+     61684,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     2588,
+     1500
+    ],
+    "wazuh|52507|ClamAV database update|none": [
+     942,
+     942
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     618,
+     618
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     30237,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     8973,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     8973,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     569,
+     569
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     208,
+     208
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     40,
+     40
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     93,
+     93
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     51,
+     51
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     104,
+     104
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     56,
+     56
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     82,
+     82
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|none": [
+     3,
+     3
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     2,
+     2
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     1,
+     1
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|none": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     72,
+     72
+    ],
+    "wazuh|20101|IDS event.|network_scans": [
+     106,
+     106
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|network_scans": [
+     16,
+     16
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|network_scans": [
+     16,
+     16
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|network_scans": [
+     80,
+     80
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|network_scans": [
+     4,
+     4
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|service_scans": [
+     96,
+     96
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     310,
+     310
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     18,
+     18
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|service_scans": [
+     12,
+     12
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     10,
+     10
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     109,
+     109
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     12,
+     12
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|service_scans": [
+     106,
+     106
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|service_scans": [
+     75,
+     75
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|52507|ClamAV database update|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|20101|IDS event.|wpscan": [
+     11,
+     11
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|wpscan": [
+     8,
+     8
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     4454,
+     1500
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     7,
+     7
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     343,
+     343
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|wpscan": [
+     4,
+     4
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|wpscan": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|wpscan": [
+     2,
+     2
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     380013,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     29276,
+     1500
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     184,
+     184
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     461,
+     461
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     553,
+     553
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|dirb": [
+     206,
+     206
+    ],
+    "wazuh|20101|IDS event.|dirb": [
+     385,
+     385
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dirb": [
+     92,
+     92
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dirb": [
+     92,
+     92
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|dirb": [
+     83,
+     83
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dirb": [
+     3,
+     3
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dirb": [
+     114,
+     114
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|dirb": [
+     5,
+     5
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|52507|ClamAV database update|dirb": [
+     6,
+     6
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|webshell": [
+     4,
+     4
+    ],
+    "wazuh|20101|IDS event.|webshell": [
+     7,
+     7
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|webshell": [
+     15,
+     15
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|webshell": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     345,
+     345
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|cracking": [
+     300,
+     300
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     431,
+     431
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     72,
+     72
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     72,
+     72
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     16,
+     16
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|cracking": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|cracking": [
+     7,
+     7
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|reverse_shell": [
+     4,
+     4
+    ],
+    "wazuh|20101|IDS event.|reverse_shell": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|reverse_shell": [
+     3,
+     3
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     5,
+     5
+    ],
+    "wazuh|5304|User successfully changed UID.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|privilege_escalation": [
+     6,
+     6
+    ],
+    "wazuh|20101|IDS event.|privilege_escalation": [
+     5,
+     5
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|privilege_escalation": [
+     24,
+     24
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     3,
+     3
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     3,
+     3
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|service_stop": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|service_stop": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     466,
+     466
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     913,
+     913
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     466,
+     466
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     1344,
+     1344
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|dnsteal": [
+     4,
+     4
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     16,
+     16
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dnsteal": [
+     11,
+     11
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dnsteal": [
+     4,
+     4
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|5503|PAM: User login failed.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|2501|syslog: User authentication failure.|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA DNS Unsolicited response|none": [
+     1,
+     1
+    ]
+   }
+  },
+  "harrison_aminer.jsonl.gz": {
+   "scenario": "harrison",
+   "kind": "aminer",
+   "original": 10194,
+   "kept": 5896,
+   "attack_full": 9498,
+   "attack_kept": 5200,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     106,
+     106
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     34,
+     34
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     148,
+     148
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     31,
+     31
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     9,
+     9
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     32,
+     32
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     18,
+     18
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     71,
+     71
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     37,
+     37
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     33,
+     33
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     17,
+     17
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     18,
+     18
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     48,
+     48
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|service_scans": [
+     12,
+     12
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     4814,
+     1500
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     734,
+     734
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     2484,
+     1500
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     1313,
+     1313
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|dirb": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     21,
+     21
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dnsteal": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|dnsteal": [
+     1,
+     1
+    ]
+   }
+  },
+  "russellmitchell_wazuh.jsonl.gz": {
+   "scenario": "russellmitchell",
+   "kind": "wazuh",
+   "original": 41488,
+   "kept": 11983,
+   "attack_full": 7800,
+   "attack_kept": 3738,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     752,
+     752
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     310,
+     310
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     42,
+     42
+    ],
+    "wazuh|20101|IDS event.|none": [
+     8754,
+     1500
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     14061,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     4314,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     4314,
+     1500
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     50,
+     50
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     120,
+     120
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     24,
+     24
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     9,
+     9
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     12,
+     12
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     6,
+     6
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     7,
+     7
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     15,
+     15
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     91,
+     91
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     30,
+     30
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     15,
+     15
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     9,
+     9
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     9,
+     9
+    ],
+    "wazuh|52507|ClamAV database update|network_scans": [
+     8,
+     8
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     10,
+     10
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     43,
+     43
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     39,
+     39
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     27,
+     27
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     321,
+     321
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     4123,
+     1500
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     6,
+     6
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     7,
+     7
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     2939,
+     1500
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     227,
+     227
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|webshell": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|webshell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|cracking": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     8,
+     8
+    ],
+    "wazuh|5304|User successfully changed UID.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     5,
+     5
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     375,
+     375
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     82,
+     82
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     82,
+     82
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     161,
+     161
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     8,
+     8
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dnsteal": [
+     2,
+     2
+    ]
+   }
+  },
+  "russellmitchell_aminer.jsonl.gz": {
+   "scenario": "russellmitchell",
+   "kind": "aminer",
+   "original": 4056,
+   "kept": 2387,
+   "attack_full": 3461,
+   "attack_kept": 1792,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     258,
+     258
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     33,
+     33
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     17,
+     17
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     16,
+     16
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     29,
+     29
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     174,
+     174
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|service_scans": [
+     24,
+     24
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|service_scans": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|service_scans": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     27,
+     27
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     3169,
+     1500
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     9,
+     9
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ]
+   }
+  },
+  "santos_wazuh.jsonl.gz": {
+   "scenario": "santos",
+   "kind": "wazuh",
+   "original": 126513,
+   "kept": 16466,
+   "attack_full": 7835,
+   "attack_kept": 3686,
+   "groups": {
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     25717,
+     1500
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     83,
+     83
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     305,
+     305
+    ],
+    "wazuh|20101|IDS event.|none": [
+     41619,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     1459,
+     1459
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     190,
+     190
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     338,
+     338
+    ],
+    "wazuh|52507|ClamAV database update|none": [
+     744,
+     744
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     8736,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     8736,
+     1500
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     35,
+     35
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     90,
+     90
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     56,
+     56
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     28590,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     50,
+     50
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     4,
+     4
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|none": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA DNS Unsolicited response|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     2,
+     2
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     15,
+     15
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     21,
+     21
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .cc TLD|none": [
+     18,
+     18
+    ],
+    "wazuh|86601|Suricata: Alert - ET HUNTING Suspicious Domain Request for Possible COVID-19 Domain M1|none": [
+     27,
+     27
+    ],
+    "wazuh|86601|Suricata: Alert - ET HUNTING Suspicious TLS SNI Request for Possible COVID-19 Domain M1|none": [
+     21,
+     21
+    ],
+    "wazuh|86601|Suricata: Alert - ET HUNTING Possible COVID-19 Domain in SSL Certificate M2|none": [
+     47,
+     47
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|none": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     5,
+     5
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     138,
+     138
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     72,
+     72
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     72,
+     72
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     522,
+     522
+    ],
+    "wazuh|5503|PAM: User login failed.|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|2501|syslog: User authentication failure.|dnsteal": [
+     4,
+     4
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|dnsteal": [
+     6,
+     6
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     8,
+     8
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     5,
+     5
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     2,
+     2
+    ],
+    "wazuh|5403|First time user executed sudo.|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS certificate invalid der|none": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|network_scans": [
+     20,
+     20
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|network_scans": [
+     20,
+     20
+    ],
+    "wazuh|20101|IDS event.|network_scans": [
+     39,
+     39
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     5,
+     5
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     7,
+     7
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     27,
+     27
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     14,
+     14
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     15,
+     15
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     4127,
+     1500
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     6,
+     6
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     317,
+     317
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     7,
+     7
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     3022,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     233,
+     233
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|wpscan": [
+     6,
+     6
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|webshell": [
+     9,
+     9
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|webshell": [
+     1,
+     1
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     381,
+     381
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|cracking": [
+     4,
+     4
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     183,
+     183
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     88,
+     88
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     88,
+     88
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     5,
+     5
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|cracking": [
+     10,
+     10
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|cracking": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|cracking": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|reverse_shell": [
+     3,
+     3
+    ],
+    "wazuh|5304|User successfully changed UID.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|privilege_escalation": [
+     12,
+     12
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     1,
+     1
+    ]
+   }
+  },
+  "santos_aminer.jsonl.gz": {
+   "scenario": "santos",
+   "kind": "aminer",
+   "original": 4266,
+   "kept": 2500,
+   "attack_full": 3423,
+   "attack_kept": 1657,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     146,
+     146
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     17,
+     17
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     88,
+     88
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     164,
+     164
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     18,
+     18
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     25,
+     25
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     25,
+     25
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     58,
+     58
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     36,
+     36
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     12,
+     12
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     90,
+     90
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     14,
+     14
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New event type.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|dnsteal": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     33,
+     33
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     27,
+     27
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     3266,
+     1500
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     19,
+     19
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|webshell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|reverse_shell": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ]
+   }
+  },
+  "shaw_wazuh.jsonl.gz": {
+   "scenario": "shaw",
+   "kind": "wazuh",
+   "original": 68539,
+   "kept": 12440,
+   "attack_full": 5208,
+   "attack_kept": 2760,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     1279,
+     1279
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     516,
+     516
+    ],
+    "wazuh|20101|IDS event.|none": [
+     16068,
+     1500
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     27735,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     267,
+     267
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     7924,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     7924,
+     1500
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     108,
+     108
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     95,
+     95
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     28,
+     28
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     30,
+     30
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     3,
+     3
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     178,
+     178
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     224,
+     224
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     58,
+     58
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     15,
+     15
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|none": [
+     2,
+     2
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     10,
+     10
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     17,
+     17
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     4,
+     4
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     3,
+     3
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     4,
+     4
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     62,
+     62
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     96,
+     96
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     9,
+     9
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     3,
+     3
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     848,
+     848
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     2,
+     2
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     65,
+     65
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     10,
+     10
+    ],
+    "wazuh|31104|Common web attack.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     7,
+     7
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     3948,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     303,
+     303
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     1,
+     1
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     234,
+     234
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     201,
+     201
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     102,
+     102
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     102,
+     102
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|31101|Web server 400 error code.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     3,
+     3
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|reverse_shell": [
+     3,
+     3
+    ],
+    "wazuh|5304|User successfully changed UID.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|privilege_escalation": [
+     9,
+     9
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|none": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Behavioral Unusual Port 445 traffic Potential Scan or Infection|none": [
+     2,
+     2
+    ]
+   }
+  },
+  "shaw_aminer.jsonl.gz": {
+   "scenario": "shaw",
+   "kind": "aminer",
+   "original": 2243,
+   "kept": 2243,
+   "attack_full": 958,
+   "attack_kept": 958,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     148,
+     148
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     93,
+     93
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     88,
+     88
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     9,
+     9
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     499,
+     499
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     114,
+     114
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     36,
+     36
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     37,
+     37
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     40,
+     40
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     16,
+     16
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     21,
+     21
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New characters in DNS domain.|network_scans": [
+     9,
+     9
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     731,
+     731
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     30,
+     30
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|cracking": [
+     93,
+     93
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|cracking": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|cracking": [
+     4,
+     4
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     16,
+     16
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ]
+   }
+  },
+  "wardbeck_wazuh.jsonl.gz": {
+   "scenario": "wardbeck",
+   "kind": "wazuh",
+   "original": 88204,
+   "kept": 12199,
+   "attack_full": 5267,
+   "attack_kept": 2779,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     1062,
+     1062
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     399,
+     399
+    ],
+    "wazuh|20101|IDS event.|none": [
+     23700,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     11893,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     11893,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     335,
+     335
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     32031,
+     1500
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     4,
+     4
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     147,
+     147
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     50,
+     50
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     24,
+     24
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     72,
+     72
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     48,
+     48
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO TLS Handshake Failure|none": [
+     9,
+     9
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     71,
+     71
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     99,
+     99
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     38,
+     38
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     134,
+     134
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     44,
+     44
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     24,
+     24
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     11,
+     11
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     18,
+     18
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     6,
+     6
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     9,
+     9
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     4,
+     4
+    ],
+    "wazuh|5403|First time user executed sudo.|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Session Traversal Utilities for NAT (STUN Binding Request)|none": [
+     1,
+     1
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS DNS Lookup for localhost.DOMAIN.TLD|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .su TLD (Soviet Union) Often Malware Related|none": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     3,
+     3
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     10,
+     10
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|service_scans": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     15,
+     15
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     9,
+     9
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|wpscan": [
+     3,
+     3
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     814,
+     814
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     63,
+     63
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     2,
+     2
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     10,
+     10
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|31510|CMS (WordPress or Joomla) brute force attempt.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31104|Common web attack.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     7,
+     7
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     3988,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     307,
+     307
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     1,
+     1
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|webshell": [
+     9,
+     9
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|webshell": [
+     1,
+     1
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     375,
+     375
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     178,
+     178
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     86,
+     86
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     87,
+     87
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|cracking": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|cracking": [
+     10,
+     10
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|cracking": [
+     2,
+     2
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     9,
+     9
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|cracking": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|reverse_shell": [
+     6,
+     6
+    ],
+    "wazuh|5304|User successfully changed UID.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|privilege_escalation": [
+     3,
+     3
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     2,
+     2
+    ]
+   }
+  },
+  "wardbeck_aminer.jsonl.gz": {
+   "scenario": "wardbeck",
+   "kind": "aminer",
+   "original": 3053,
+   "kept": 3053,
+   "attack_full": 958,
+   "attack_kept": 958,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     128,
+     128
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     19,
+     19
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     21,
+     21
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     159,
+     159
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     141,
+     141
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     697,
+     697
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     507,
+     507
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     29,
+     29
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     12,
+     12
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     73,
+     73
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     31,
+     31
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     37,
+     37
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     21,
+     21
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|dnsteal": [
+     3,
+     3
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|dnsteal": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|dnsteal": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     107,
+     107
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     741,
+     741
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     30,
+     30
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     23,
+     23
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|webshell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     14,
+     14
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ]
+   }
+  },
+  "wheeler_wazuh.jsonl.gz": {
+   "scenario": "wheeler",
+   "kind": "wazuh",
+   "original": 603939,
+   "kept": 19699,
+   "attack_full": 420062,
+   "attack_kept": 7042,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     1190,
+     1190
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     24408,
+     1500
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     101,
+     101
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     24408,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     419,
+     419
+    ],
+    "wazuh|20101|IDS event.|none": [
+     65897,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     1009,
+     1009
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     18527,
+     1500
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     45480,
+     1500
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     705,
+     705
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     97,
+     97
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     72,
+     72
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     161,
+     161
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     24,
+     24
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     2,
+     2
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     197,
+     197
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     1,
+     1
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|none": [
+     72,
+     72
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .cc TLD|none": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     91,
+     91
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     49,
+     49
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO TLS Handshake Failure|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     7,
+     7
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     4,
+     4
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     1,
+     1
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     165,
+     165
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     10,
+     10
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|dnsteal": [
+     111,
+     111
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     139,
+     139
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     16,
+     16
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     16,
+     16
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|20101|IDS event.|network_scans": [
+     312,
+     312
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|network_scans": [
+     138,
+     138
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|network_scans": [
+     88,
+     88
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|network_scans": [
+     88,
+     88
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     15,
+     15
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     53,
+     53
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     10,
+     10
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     25,
+     25
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|service_scans": [
+     3,
+     3
+    ],
+    "wazuh|31516|Suspicious URL access.|service_scans": [
+     3,
+     3
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     553,
+     553
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     381344,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     30027,
+     1500
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     440,
+     440
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     172,
+     172
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|dirb": [
+     82,
+     82
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|dirb": [
+     58,
+     58
+    ],
+    "wazuh|20101|IDS event.|dirb": [
+     155,
+     155
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dirb": [
+     44,
+     44
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dirb": [
+     44,
+     44
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|dirb": [
+     4,
+     4
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dirb": [
+     51,
+     51
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dirb": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|dirb": [
+     10,
+     10
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     6149,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     473,
+     473
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|wpscan": [
+     3,
+     3
+    ],
+    "wazuh|31516|Suspicious URL access.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|wpscan": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|wpscan": [
+     8,
+     8
+    ],
+    "wazuh|20101|IDS event.|wpscan": [
+     15,
+     15
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|31510|CMS (WordPress or Joomla) brute force attempt.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|webshell": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|webshell": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|reverse_shell": [
+     11,
+     11
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|reverse_shell": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|reverse_shell": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|reverse_shell": [
+     4,
+     4
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|5304|User successfully changed UID.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|privilege_escalation": [
+     4,
+     4
+    ],
+    "wazuh|20101|IDS event.|privilege_escalation": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|privilege_escalation": [
+     4,
+     4
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ]
+   }
+  },
+  "wheeler_aminer.jsonl.gz": {
+   "scenario": "wheeler",
+   "kind": "aminer",
+   "original": 12222,
+   "kept": 6109,
+   "attack_full": 11340,
+   "attack_kept": 5227,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     305,
+     305
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     18,
+     18
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     17,
+     17
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     17,
+     17
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     43,
+     43
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     157,
+     157
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     3,
+     3
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     19,
+     19
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     58,
+     58
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     36,
+     36
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     39,
+     39
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     14,
+     14
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     24,
+     24
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     10,
+     10
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|dnsteal": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|dnsteal": [
+     3,
+     3
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|dnsteal": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|network_scans": [
+     20,
+     20
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     85,
+     85
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|service_scans": [
+     30,
+     30
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     1313,
+     1313
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     2484,
+     1500
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     728,
+     728
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     6629,
+     1500
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     16,
+     16
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|reverse_shell": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New event type.|privilege_escalation": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ]
+   }
+  },
+  "wilson_wazuh.jsonl.gz": {
+   "scenario": "wilson",
+   "kind": "wazuh",
+   "original": 625303,
+   "kept": 22299,
+   "attack_full": 427342,
+   "attack_kept": 6681,
+   "groups": {
+    "wazuh|52507|ClamAV database update|none": [
+     1136,
+     1136
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|none": [
+     64683,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|none": [
+     482,
+     482
+    ],
+    "wazuh|20101|IDS event.|none": [
+     61108,
+     1500
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|none": [
+     986,
+     986
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|none": [
+     31276,
+     1500
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|none": [
+     31276,
+     1500
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|none": [
+     825,
+     825
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|none": [
+     124,
+     124
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP unable to match response to request|none": [
+     181,
+     181
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|none": [
+     188,
+     188
+    ],
+    "wazuh|80730|Auditd: SELinux permission check.|none": [
+     24,
+     24
+    ],
+    "wazuh|5502|PAM: Login session closed.|none": [
+     31,
+     31
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|none": [
+     140,
+     140
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .cloud TLD|none": [
+     75,
+     75
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|none": [
+     112,
+     112
+    ],
+    "wazuh|5501|PAM: Login session opened.|none": [
+     35,
+     35
+    ],
+    "wazuh|5715|sshd: authentication success.|none": [
+     15,
+     15
+    ],
+    "wazuh|5503|PAM: User login failed.|none": [
+     96,
+     96
+    ],
+    "wazuh|2501|syslog: User authentication failure.|none": [
+     56,
+     56
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|none": [
+     157,
+     157
+    ],
+    "wazuh|5403|First time user executed sudo.|none": [
+     3,
+     3
+    ],
+    "wazuh|5551|PAM: Multiple failed logins in a small period of time.|none": [
+     8,
+     8
+    ],
+    "wazuh|9751|Dovecot brute force attack (multiple auth failures).|none": [
+     5,
+     5
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP gzip decompression failed|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Observed DNS Query to .biz TLD|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO DNS Query for Suspicious .ga Domain|none": [
+     8,
+     8
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Suspicious Domain (*.ga) in TLS SNI|none": [
+     7,
+     7
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query to a *.pw domain - Likely Hostile|none": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .cc TLD|none": [
+     6,
+     6
+    ],
+    "wazuh|31101|Web server 400 error code.|none": [
+     44,
+     44
+    ],
+    "wazuh|86601|Suricata: Alert - ET DNS Query for .to TLD|none": [
+     4,
+     4
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|none": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO TLS Handshake Failure|none": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dnsteal": [
+     1086,
+     1086
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dnsteal": [
+     440,
+     440
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dnsteal": [
+     440,
+     440
+    ],
+    "wazuh|20101|IDS event.|dnsteal": [
+     840,
+     840
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dnsteal": [
+     20,
+     20
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dnsteal": [
+     12,
+     12
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|52507|ClamAV database update|dnsteal": [
+     8,
+     8
+    ],
+    "wazuh|5503|PAM: User login failed.|dnsteal": [
+     1,
+     1
+    ],
+    "wazuh|9705|Dovecot Invalid User Login Attempt.|dnsteal": [
+     3,
+     3
+    ],
+    "wazuh|2501|syslog: User authentication failure.|dnsteal": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Session Traversal Utilities for NAT (STUN Binding Request)|none": [
+     9,
+     9
+    ],
+    "wazuh|20101|IDS event.|network_scans": [
+     88,
+     88
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|network_scans": [
+     46,
+     46
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|network_scans": [
+     46,
+     46
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|network_scans": [
+     2,
+     2
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|network_scans": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|network_scans": [
+     6,
+     6
+    ],
+    "wazuh|5706|sshd: insecure connection attempt (scan).|service_scans": [
+     9,
+     9
+    ],
+    "wazuh|31101|Web server 400 error code.|service_scans": [
+     233,
+     233
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|service_scans": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP no server welcome message|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|service_scans": [
+     13,
+     13
+    ],
+    "wazuh|20101|IDS event.|service_scans": [
+     33,
+     33
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA SMTP invalid reply|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|service_scans": [
+     6,
+     6
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid SSLv2 header|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|service_scans": [
+     17,
+     17
+    ],
+    "wazuh|86601|Suricata: Alert - ET SCAN Possible Nmap User-Agent Observed|service_scans": [
+     27,
+     27
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA HTTP invalid response chunk len|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|service_scans": [
+     2,
+     2
+    ],
+    "wazuh|31516|Suspicious URL access.|service_scans": [
+     4,
+     4
+    ],
+    "wazuh|31104|Common web attack.|service_scans": [
+     1,
+     1
+    ],
+    "wazuh|30305|Apache: Attempt to access forbidden file or directory.|dirb": [
+     553,
+     553
+    ],
+    "wazuh|31101|Web server 400 error code.|dirb": [
+     391909,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|dirb": [
+     30305,
+     1500
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|dirb": [
+     186,
+     186
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|dirb": [
+     114,
+     114
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|dirb": [
+     112,
+     112
+    ],
+    "wazuh|20101|IDS event.|dirb": [
+     218,
+     218
+    ],
+    "wazuh|31104|Common web attack.|dirb": [
+     183,
+     183
+    ],
+    "wazuh|31516|Suspicious URL access.|dirb": [
+     457,
+     457
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|dirb": [
+     83,
+     83
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|dirb": [
+     4,
+     4
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record type|dirb": [
+     2,
+     2
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|dirb": [
+     4,
+     4
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|dirb": [
+     5,
+     5
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|dirb": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|20101|IDS event.|wpscan": [
+     24,
+     24
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|wpscan": [
+     12,
+     12
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|wpscan": [
+     12,
+     12
+    ],
+    "wazuh|31101|Web server 400 error code.|wpscan": [
+     2947,
+     1500
+    ],
+    "wazuh|31151|Multiple web server 400 error codes from same source ip.|wpscan": [
+     226,
+     226
+    ],
+    "wazuh|30306|Apache: Attempt to access forbidden directory index.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|31122|Web server 500 error code (Internal Error).|wpscan": [
+     6,
+     6
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|wpscan": [
+     9,
+     9
+    ],
+    "wazuh|31510|CMS (WordPress or Joomla) brute force attempt.|wpscan": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|webshell": [
+     10,
+     10
+    ],
+    "wazuh|20101|IDS event.|webshell": [
+     19,
+     19
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|webshell": [
+     10,
+     10
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|webshell": [
+     1,
+     1
+    ],
+    "wazuh|20151|Multiple IDS events from same source ip.|cracking": [
+     5,
+     5
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|cracking": [
+     196,
+     196
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|cracking": [
+     196,
+     196
+    ],
+    "wazuh|20101|IDS event.|cracking": [
+     385,
+     385
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|cracking": [
+     477,
+     477
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|cracking": [
+     6,
+     6
+    ],
+    "wazuh|52507|ClamAV database update|cracking": [
+     8,
+     8
+    ],
+    "wazuh|20162|Multiple IDS alerts for same id (ignoring now this id).|cracking": [
+     1,
+     1
+    ],
+    "wazuh|31509|CMS (WordPress or Joomla) login attempt.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management|cracking": [
+     7,
+     7
+    ],
+    "wazuh|20100|First time this IDS alert is generated.|cracking": [
+     1,
+     1
+    ],
+    "wazuh|20161|Multiple IDS events from same source ip (ignoring now this srcip and id).|cracking": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid handshake message|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|20101|IDS event.|reverse_shell": [
+     3,
+     3
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA TLS invalid record/traffic|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|20152|Multiple IDS alerts for same id.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|reverse_shell": [
+     9,
+     9
+    ],
+    "wazuh|5304|User successfully changed UID.|reverse_shell": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|reverse_shell": [
+     2,
+     2
+    ],
+    "wazuh|9701|Dovecot Authentication Success.|privilege_escalation": [
+     12,
+     12
+    ],
+    "wazuh|5403|First time user executed sudo.|privilege_escalation": [
+     1,
+     1
+    ],
+    "wazuh|5501|PAM: Login session opened.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5502|PAM: Login session closed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|5402|Successful sudo to ROOT executed.|privilege_escalation": [
+     2,
+     2
+    ],
+    "wazuh|86601|Suricata: Alert - SURICATA DNS Unsolicited response|none": [
+     1,
+     1
+    ],
+    "wazuh|86601|Suricata: Alert - ET INFO Session Traversal Utilities for NAT (STUN Binding Response)|none": [
+     2,
+     2
+    ]
+   }
+  },
+  "wilson_aminer.jsonl.gz": {
+   "scenario": "wilson",
+   "kind": "aminer",
+   "original": 8943,
+   "kept": 6302,
+   "attack_full": 7909,
+   "attack_kept": 5268,
+   "groups": {
+    "aminer|AMiner: New event type.|none": [
+     156,
+     156
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|none": [
+     26,
+     26
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|none": [
+     28,
+     28
+    ],
+    "aminer|AMiner: New login parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New cred_refr parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|none": [
+     21,
+     21
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: New user_login parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New cred_disp parameter combination in Audit logs.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New user_end parameter combination in Audit logs.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New user_cmd parameter combination in Audit logs.|none": [
+     4,
+     4
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: New apparmor parameter combination in Audit logs.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New ip address in DNS logs.|none": [
+     50,
+     50
+    ],
+    "aminer|AMiner: New query record in DNS logs.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in DNS domain.|none": [
+     329,
+     329
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|none": [
+     8,
+     8
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|none": [
+     6,
+     6
+    ],
+    "aminer|AMiner: High entropy in Apache Access referer.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access user agent.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New characters in DNS domain.|none": [
+     2,
+     2
+    ],
+    "aminer|AMiner: CPU value out of expected range in monitoring logs.|none": [
+     13,
+     13
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|none": [
+     20,
+     20
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS log events.|none": [
+     116,
+     116
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|none": [
+     11,
+     11
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|none": [
+     58,
+     58
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query records.|none": [
+     22,
+     22
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|none": [
+     5,
+     5
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of query records in DNS logs.|none": [
+     41,
+     41
+    ],
+    "aminer|AMiner: New characters in Apache Access referer.|none": [
+     15,
+     15
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|none": [
+     7,
+     7
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|none": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_start parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New service_stop parameter combination in Audit logs.|service_stop": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|dnsteal": [
+     5,
+     5
+    ],
+    "aminer|AMiner: New event type.|network_scans": [
+     25,
+     25
+    ],
+    "aminer|AMiner: New event type.|service_scans": [
+     109,
+     109
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|service_scans": [
+     30,
+     30
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|service_scans": [
+     26,
+     26
+    ],
+    "aminer|AMiner: New event type.|dirb": [
+     1313,
+     1313
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|dirb": [
+     728,
+     728
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|dirb": [
+     2458,
+     1500
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|dirb": [
+     2,
+     2
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access logs.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of DNS query IPs.|dirb": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New request method in Apache Access log.|wpscan": [
+     3183,
+     1500
+    ],
+    "aminer|AMiner: New status code in Apache Access log.|wpscan": [
+     8,
+     8
+    ],
+    "aminer|AMiner: New event type.|wpscan": [
+     18,
+     18
+    ],
+    "aminer|AMiner: Unusual occurrence frequencies of Apache Access request methods.|wpscan": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New characters in Apache Access request.|wpscan": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|webshell": [
+     2,
+     2
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: CPU value deviates from average in monitoring logs.|cracking": [
+     1,
+     1
+    ],
+    "aminer|AMiner: High entropy in Apache Access request.|reverse_shell": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New event type.|reverse_shell": [
+     3,
+     3
+    ],
+    "aminer|AMiner: New user_auth parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New user_acct parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New cred_acq parameter combination in Audit logs.|privilege_escalation": [
+     2,
+     2
+    ],
+    "aminer|AMiner: New user_start parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ],
+    "aminer|AMiner: New syscall parameter combination in Audit logs.|privilege_escalation": [
+     1,
+     1
+    ]
+   }
+  }
+ },
+ "labels": "phase windows from labels.csv; an alert is attack-labelled when its alert type is elevated in the window: count >= 5 x baseline expectation + 1 (baseline = same scenario, same alert type, outside all windows)",
+ "original_total": 2655821,
+ "kept_total": 170850
+}

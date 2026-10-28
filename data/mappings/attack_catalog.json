@@ -1,0 +1,267 @@
+{
+  "name": "MITRE ATT&CK Enterprise - local subset",
+  "version": "v15.1-subset",
+  "source": "https://attack.mitre.org/ (IDs and names transcribed for the techniques this prototype can support from network telemetry)",
+  "coverage_note": "Partial local coverage only: 11 tactics and 26 techniques relevant to Suricata/Zeek evidence (including the techniques labelled in UWF-ZeekData24). This is not the full ATT&CK knowledge base.",
+  "tactics": [
+    {
+      "id": "TA0043",
+      "name": "Reconnaissance",
+      "order": 1
+    },
+    {
+      "id": "TA0001",
+      "name": "Initial Access",
+      "order": 3
+    },
+    {
+      "id": "TA0002",
+      "name": "Execution",
+      "order": 4
+    },
+    {
+      "id": "TA0003",
+      "name": "Persistence",
+      "order": 5
+    },
+    {
+      "id": "TA0004",
+      "name": "Privilege Escalation",
+      "order": 6
+    },
+    {
+      "id": "TA0005",
+      "name": "Defense Evasion",
+      "order": 7
+    },
+    {
+      "id": "TA0006",
+      "name": "Credential Access",
+      "order": 8
+    },
+    {
+      "id": "TA0007",
+      "name": "Discovery",
+      "order": 9
+    },
+    {
+      "id": "TA0008",
+      "name": "Lateral Movement",
+      "order": 10
+    },
+    {
+      "id": "TA0011",
+      "name": "Command and Control",
+      "order": 12
+    },
+    {
+      "id": "TA0010",
+      "name": "Exfiltration",
+      "order": 13
+    }
+  ],
+  "techniques": [
+    {
+      "id": "T1595",
+      "name": "Active Scanning",
+      "tactics": [
+        "TA0043"
+      ]
+    },
+    {
+      "id": "T1595.001",
+      "name": "Active Scanning: Scanning IP Blocks",
+      "tactics": [
+        "TA0043"
+      ]
+    },
+    {
+      "id": "T1595.002",
+      "name": "Active Scanning: Vulnerability Scanning",
+      "tactics": [
+        "TA0043"
+      ]
+    },
+    {
+      "id": "T1595.003",
+      "name": "Active Scanning: Wordlist Scanning",
+      "tactics": [
+        "TA0043"
+      ]
+    },
+    {
+      "id": "T1046",
+      "name": "Network Service Discovery",
+      "tactics": [
+        "TA0007"
+      ]
+    },
+    {
+      "id": "T1018",
+      "name": "Remote System Discovery",
+      "tactics": [
+        "TA0007"
+      ]
+    },
+    {
+      "id": "T1110",
+      "name": "Brute Force",
+      "tactics": [
+        "TA0006"
+      ]
+    },
+    {
+      "id": "T1110.001",
+      "name": "Brute Force: Password Guessing",
+      "tactics": [
+        "TA0006"
+      ]
+    },
+    {
+      "id": "T1110.003",
+      "name": "Brute Force: Password Spraying",
+      "tactics": [
+        "TA0006"
+      ]
+    },
+    {
+      "id": "T1078",
+      "name": "Valid Accounts",
+      "tactics": [
+        "TA0001",
+        "TA0003",
+        "TA0004",
+        "TA0005"
+      ]
+    },
+    {
+      "id": "T1133",
+      "name": "External Remote Services",
+      "tactics": [
+        "TA0001",
+        "TA0003"
+      ]
+    },
+    {
+      "id": "T1190",
+      "name": "Exploit Public-Facing Application",
+      "tactics": [
+        "TA0001"
+      ]
+    },
+    {
+      "id": "T1021.004",
+      "name": "Remote Services: SSH",
+      "tactics": [
+        "TA0008"
+      ]
+    },
+    {
+      "id": "T1071",
+      "name": "Application Layer Protocol",
+      "tactics": [
+        "TA0011"
+      ]
+    },
+    {
+      "id": "T1071.001",
+      "name": "Application Layer Protocol: Web Protocols",
+      "tactics": [
+        "TA0011"
+      ]
+    },
+    {
+      "id": "T1071.004",
+      "name": "Application Layer Protocol: DNS",
+      "tactics": [
+        "TA0011"
+      ]
+    },
+    {
+      "id": "T1572",
+      "name": "Protocol Tunneling",
+      "tactics": [
+        "TA0011"
+      ]
+    },
+    {
+      "id": "T1573",
+      "name": "Encrypted Channel",
+      "tactics": [
+        "TA0011"
+      ]
+    },
+    {
+      "id": "T1041",
+      "name": "Exfiltration Over C2 Channel",
+      "tactics": [
+        "TA0010"
+      ]
+    },
+    {
+      "id": "T1048",
+      "name": "Exfiltration Over Alternative Protocol",
+      "tactics": [
+        "TA0010"
+      ]
+    },
+    {
+      "id": "T1048.003",
+      "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol",
+      "tactics": [
+        "TA0010"
+      ]
+    },
+    {
+      "id": "T1029",
+      "name": "Scheduled Transfer",
+      "tactics": [
+        "TA0010"
+      ]
+    },
+    {
+      "id": "T1021",
+      "name": "Remote Services",
+      "tactics": [
+        "TA0008"
+      ]
+    },
+    {
+      "id": "T1021.002",
+      "name": "Remote Services: SMB/Windows Admin Shares",
+      "tactics": [
+        "TA0008"
+      ]
+    },
+    {
+      "id": "T1210",
+      "name": "Exploitation of Remote Services",
+      "tactics": [
+        "TA0008"
+      ]
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
+      "tactics": [
+        "TA0007"
+      ]
+    },
+    {
+      "id": "T1548",
+      "name": "Abuse Elevation Control Mechanism",
+      "tactics": [
+        "TA0004",
+        "TA0005"
+      ]
+    },
+    {
+      "id": "T1548.003",
+      "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching",
+      "tactics": [
+        "TA0004",
+        "TA0005"
+      ]
+    }
+  ]
+}
